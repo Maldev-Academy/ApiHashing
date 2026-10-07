@@ -2,6 +2,16 @@
 
 Hash-based x64 replacements for [GetModuleHandleA/W](https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlew), [GetProcAddress](https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress), and [GetModuleFileNameW](https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamew) WinAPIs. Supporting EAF bypass via read gadgets, forwarded functions, ordinal exports, and API set DLLs.
 
+### Quick Links
+
+[Maldev Academy Home](https://maldevacademy.com?ref=gh)
+
+[Maldev Database](https://search.maldevacademy.com?ref=gh)
+  
+[Malware Development Course Syllabus](https://maldevacademy.com/maldev-course/syllabus?ref=gh)
+
+[EDR Internals & Development Course](http://maldevacademy.test/edr-course?ref=gh)
+
 <br>
 
 ## Features
@@ -48,5 +58,3 @@ Hash-based x64 replacements for [GetModuleHandleA/W](https://learn.microsoft.com
 ## Credits
  
 API Set namespace structures and traversal are adapted from [ajkhoury/ApiSet](https://github.com/ajkhoury/ApiSet).
-
-
