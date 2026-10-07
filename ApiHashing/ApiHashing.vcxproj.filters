@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="StringHashing">
+      <UniqueIdentifier>{c2926f9f-1955-44aa-a392-c42a256e6a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApiHashing">
+      <UniqueIdentifier>{fbb5755e-4a65-47a0-b926-1b1e7c95206b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EAF-Bypass">
+      <UniqueIdentifier>{9c78379a-ca71-430e-9116-7362f4ac882c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHashing.c">
+      <Filter>StringHashing</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiHashing.c">
+      <Filter>ApiHashing</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadThroughGadgets.c">
+      <Filter>EAF-Bypass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHashing.h">
+      <Filter>StringHashing</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiHashing.h">
+      <Filter>ApiHashing</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiSetDefinitions.h">
+      <Filter>ApiHashing</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadThroughGadgets.h">
+      <Filter>EAF-Bypass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="ReadGadgets.asm">
+      <Filter>EAF-Bypass</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
